@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+}
+
+.navbar {
+  background: white;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feed {
+  flex: 2;
+  padding: 20px;
+}
+
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.profile {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border-left: 1px solid #ddd;
+}
+
+.upload {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
